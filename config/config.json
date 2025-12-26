@@ -1,0 +1,16 @@
+{
+    "logging": {
+        "level": "debug",
+        "format": "(%(levelname)s, %(asctime)s) => (%(name)s: %(message)s)",
+        "date_format": "%Y-%m-%d %H:%M:%S"
+    },
+    "database": {
+        "directory": "storage/0/",
+        "storage_name": "tasks.json"
+    },
+    "api": {
+        "host": "0.0.0.0",
+        "port": 8000,
+        "root_path": "/tasks"
+    }
+}
